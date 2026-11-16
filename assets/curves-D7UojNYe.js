@@ -1,0 +1,1 @@
+function p(n,s,r){if(n<=0)return 0;if(s>=1){const u=5.83/r;return 1-(1+u*n)*Math.exp(-u*n)}const o=4/(s*r),t=Math.sqrt(1-s*s),c=o*t;return 1-Math.exp(-s*o*n)*(Math.cos(c*n)+s/t*Math.sin(c*n))}function f(n,s){const r=[];for(let o=0;o<=n;o+=1)r.push({...s(o/n),offset:o/n});return r}const h=n=>Math.round(n*100)/100;export{f as a,h as p,p as s};
