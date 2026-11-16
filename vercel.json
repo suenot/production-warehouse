@@ -1,4 +1,10 @@
 {
+ "rewrites": [
+  {
+   "source": "/items.json",
+   "destination": "https://media.production-warehouse.suenot.com/items.json"
+  }
+ ],
  "headers": [
   {
    "source": "/(.*)",
