@@ -5,6 +5,10 @@
    "destination": "/api/mcp"
   },
   {
+   "source": "/catalog.json",
+   "destination": "/api/catalog"
+  },
+  {
    "source": "/items.json",
    "destination": "https://media.production-warehouse.suenot.com/items.json"
   }
